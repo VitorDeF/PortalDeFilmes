@@ -1,0 +1,382 @@
+* {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+header .container {
+    margin: 0px;
+}
+
+.header a {
+    color: inherit;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/* Geral */
+
+body {
+    background: linear-gradient(#000, #222);
+}
+
+section {
+
+    background-color: rgb(0, 0, 0, 0);
+    margin: 20px 0px;
+}
+
+footer {
+    background-color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.section-entrevistas h1,
+.ultima-avaliacoes h1,
+.destaques h1,
+.section-novidades .col-8 h2 {
+    padding-bottom: 20px;
+}
+
+/* Especificação */
+
+.poster1 img,
+.poster2 img,
+.poster3 img,
+.poster4 img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-novidades,
+.section-entrevistas,
+.ultima-avaliacoes,
+.destaques {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-top: solid #222;
+}
+
+/*Cabecalho*/
+
+.menu1 {
+    position: absolute;
+    top: 40px;
+    left: 27%;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.menu1 a:hover,
+.lancamentos h3 {
+    color: #A00;
+}
+
+.lancamentos b {
+    color: #A00;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+/*Botão mais*/
+.botao-mais {
+    position: relative;
+    display: block;
+    float: right;
+    margin-top: 10px;
+}
+
+.botao-mais button {
+    grid-column: 9/10;
+    padding: 4px;
+    background-color: #500;
+    border: none;
+    border-radius: 5%;
+}
+
+/*Dropdown Button*/
+
+.dropdown-menu,
+.dropdown-item {
+    background-color: #602222;
+    color: white;
+}
+
+
+/*Lancamentos*/
+
+#carouselExampleIndicators {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    height: 100%;
+}
+
+.lancamentos-carousel {
+    box-sizing: border-box;
+}
+
+.carousel-inner {
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+.carousel-item {
+    max-width: 100%;
+}
+
+.lancamentos iframe {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.infos-sinopse {
+    display: inline-block;
+}
+
+.lancamentos h1 {
+    text-align: center;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: yellow;
+}
+
+/*Entrevistas*/
+
+.first_letter {
+    font-weight: bold;
+}
+
+.carousel-videos {
+    display: none;
+}
+
+/* Novidades */
+
+.novidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.novidades-geral {
+    padding-top: 30px;
+}
+
+.novidades-geral .novidades:first-child {
+    padding-bottom: 30px;
+}
+
+.novidades-geral .novidades:nth-child(2) {
+    padding: 30px 0px;
+    border-top: solid #222;
+    border-bottom: solid #222;
+}
+
+.novidades-geral .novidades:last-child {
+    padding-top: 30px;
+}
+
+.Conquista-novidades {
+    background-color: rgba(228, 170, 44, 0.884);
+    border-radius: 15%;
+    padding: 3px 3px 5px 5px;
+    margin: 0px 5px;
+    color: black;
+}
+
+/*Sobre*/
+
+.sobre {
+    border-left: solid #222;
+    border-top-left-radius: 2%;
+}
+
+.sobre h3 {
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.sobre h4 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/* Editorial */
+.editorial {
+    padding-top: 50px;
+}
+
+.editorial a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #050505;
+}
+
+.footer img {
+    max-width: 100px;
+}
+
+.footer .row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Ipad */
+
+@media screen and (min-width:601px) and (max-width:900px) {
+    .novidades {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sobre {
+        border-top: solid #222;
+        border-left: none;
+        margin-top: 40px;
+        padding-top: 30px;
+    }
+
+    #carouselExampleIndicators {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 100%;
+    }
+
+    .destaques img {
+        padding-bottom: 20px;
+    }
+
+    .card3 {
+        display: none;
+    }
+
+
+    .menu1 {
+        position: absolute;
+        top: 50px;
+        left: 40%;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    .menu-L,
+    .menu-A,
+    .menu-E {
+        display: none;
+    }
+
+    .form-control {
+        max-width: 100px;
+    }
+
+    .carousel-videos {
+        display: none;
+    }
+
+}
+
+
+/* Mobile */
+
+@media screen and (min-width:200px) and (max-width:600px) {
+    .novidades {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sobre {
+        border-top: solid #222;
+        margin-top: 40px;
+        padding-top: 30px;
+        border-left: none;
+    }
+
+    .novidades img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #carouselExampleIndicators {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 100%;
+    }
+
+    .poster1 {
+        padding-bottom: 50px;
+    }
+
+    .poster2 {
+        padding-bottom: 10px;
+    }
+
+    .poster3 img,
+    .poster4 img {
+        display: none;
+    }
+
+    .footer .row {
+        display: block;
+    }
+
+    .menu1 {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    .menu-L,
+    .menu-A,
+    .menu-E,
+    .menu-N,
+    .menu-D {
+        display: none;
+    }
+
+    .form-control {
+        max-width: 100px;
+    }
+
+    .ultima-avaliacoes .row {
+        row-gap: 70px;
+    }
+
+    .card2,
+    .card3,
+    .card1 {
+        display: none;
+    }
+
+    .carousel-videos {
+        display: block;
+    }
+}
