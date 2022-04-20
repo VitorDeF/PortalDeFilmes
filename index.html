@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bb60935107.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <img class="logo" src="Imagens/LogoSiteFilme.jpg" alt="logo">
+            <nav class="nav menu1">
+                <a class="nav-link menu-L" href="#">Lançamentos</a>
+                <a class="nav-link menu-D" href="#">Em destaque</a>
+                <a class="nav-link menu-A" href="#">Avaliações</a>
+                <a class="nav-link menu-E" href="#">Entrevistas & Makingof</a>
+                <a class="nav-link menu-N" href="#">Novidades</a>
+                <div class="nav-bar">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn btn-dark" type="submit"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        </div>
+    </header>
+
+    <main>
+
+
+        <section class="lancamentos">
+            <h1>Lançamentos</h1>
+            <!--Carousel-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <!--Filme 1-->
+                    <div class="carousel-item active">
+                        <div class="row lancamentos-carousel">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="ratio ratio-16x9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rsQEor4y2hg"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="texto-parte-destaque col-lg-6 col-md-12 col-sm-12">
+                                <h3>BATMAN</h3>
+                                <p><b>Sinopse:</b> Batman (The Batman, no original) segue o segundo ano de Bruce Wayne
+                                    (Robert Pattinson) como o herói de Gotham, causando medo nos corações dos criminosos
+                                    da sombria cidade. Com apenas alguns aliados de confiança - Alfred Pennyworth (Andy
+                                    Serkis) e o tenente James Gordon (Jeffrey Wright) - entre a rede corrupta de
+                                    funcionários e figuras importantes do distrito, o vigilante solitário se estabeleceu
+                                    como a única personificação da vingança entre seus concidadãos.</p>
+                                <div class="infos-sinopse">
+                                    <ul>
+                                        <li><b>Diretor:</b> Matt Reeves</li>
+                                        <li><b>Roteiro:</b> Matt Reeves | Peter Craig</li>
+                                        <li><b>Estreia:</b> 3 de março de 2022</li>
+                                        <li><b>Elenco:</b> Robert Pattinson | Zoë Kravitz | Paul Dano | Colin Farrell
+                                        </li>
+                                    </ul>
+                                    <p class="estrelas-de-avaliacao">Avaliação:</p>
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Filme 2-->
+                    <div class="carousel-item">
+                        <div class="row lancamentos-carousel">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="ratio ratio-16x9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/78WIYzX_m98"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="texto-parte-destaque col-lg-6 col-md-12 col-sm-12">
+                                <h3>Bleach</h3>
+                                <p><b>Sinopse:</b> Kurosaki Ichigo é um garoto de 15 anos que pode ver, tocar e falar
+                                    com espíritos de pessoas mortas. Até que um dia ele encontra Kuchiki Rukia, uma
+                                    Shinigami (deus da morte), e descobre posteriormente que também é um Shinigami.
+                                    Agora, com seus poderes, ele terá que proteger sua cidade de forças do
+                                    mal.</br></br></br></p>
+                                <div class="infos-sinopse">
+                                    <ul>
+                                        <li><b>Diretor:</b> Tomohisa Taguchi</li>
+                                        <li><b>Roteiro:</b> Tite Kubo</li>
+                                        <li><b>Estreia:</b> Outubro de 2022</li>
+                                        <li><b>Elenco:</b> Masakazu Morita | Fumiko Orikasa | Hiroki Yasumoto</li>
+                                    </ul>
+                                    <p class="estrelas-de-avaliacao">Avaliação:</p>
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Filme 3-->
+                    <div class="carousel-item">
+                        <div class="row lancamentos-carousel">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="ratio ratio-16x9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2nsT9uQPIrk"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="texto-parte-destaque col-lg-6 col-md-12 col-sm-12">
+                                <h3>Peaky Blinders</h3>
+                                <p><b>Sinopse:</b> Thomas Shelby (Cillian Murphy) e seus irmãos retornam a Birmingham
+                                    depois de servir no exército britânico durante a Primeira Guerra Mundial. Shelby e
+                                    os Peaky Blinders, a gangue de criminosos da qual ele é líder, construindo um
+                                    império que vai desde corridas de cavalo adulteradas e roubo de carregamentos até
+                                    parcerias secretas com os russos. Mas as ambições de Shelby se estendem para além de
+                                    Birmingham, e ele não vai deixar que ninguém atrapalhe seus planos.</p>
+                                <div class="infos-sinopse">
+                                    <ul>
+                                        <li><b>Diretor:</b> Otto Bathurst | Tom Harpe</li>
+                                        <li><b>Roteiro:</b> Toby Finlay | Steven Knight</li>
+                                        <li><b>Estreia:</b> 12 de setembro de 2013</li>
+                                        <li><b>Elenco:</b> Cillian Murphy | Helen McCrory | Paul Anderson</li>
+                                    </ul>
+                                    <p class="estrelas-de-avaliacao">Avaliação:</p>
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Filme 4-->
+                    <div class="carousel-item">
+                        <div class="row lancamentos-carousel">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="ratio ratio-16x9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MNTGup0yyKI"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="texto-parte-destaque col-lg-6 col-md-12 col-sm-12">
+                                <h3>Gekijouban Jujutsu Kaisen 0</h3>
+                                <p><b>Sinopse:</b> Yuuta Okkotsu está assombrada. Desde que sua amiga de infância Rika
+                                    morreu em um acidente de trânsito, seu fantasma ficou preso com ele. Mas seu
+                                    espírito não aparece como a doce menina que Yuuta conheceu. Em vez disso, ela se
+                                    manifesta como uma entidade monstruosa e poderosa que o protege ferozmente. Incapaz
+                                    de controlar o comportamento violento de Rika, Yuuta é incapaz de impedir o
+                                    derramamento de sangue que se segue à sua vingança brutal</p>
+                                <div class="infos-sinopse">
+                                    <ul>
+                                        <li><b>Diretor:</b> Sunghoo Park</li>
+                                        <li><b>Roteiro:</b> Gege Akutami</li>
+                                        <li><b>Estreia:</b> 28 de abril de 2022</li>
+                                        <li><b>Elenco:</b> Megumi Ogata | Kana Hanazawa | Mikako Komatsu</li>
+                                    </ul>
+                                    <p class="estrelas-de-avaliacao">Avaliação:</p>
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="container">
+            <section class="destaques">
+                <h1>Em destaque</h1>
+                <div class="row posteres-area">
+                    <div class="poster1 col-lg-3 col-md-6 col-sm-12">
+                        <img src="Imagens/Batman poster.jpg" alt="img-destaque">
+                    </div>
+                    <div class="poster2 col-lg-3 col-md-6 col-sm-12">
+                        <img src="Imagens/Bleach poster.jpg" alt="img-destaque">
+                    </div>
+                    <div class="poster3 col-lg-3 col-md-6 col-sm-12">
+                        <img src="Imagens/Peaky blinders poster.jpg" alt="img-destaque">
+                    </div>
+                    <div class="poster4 col-lg-3 col-md-6 col-sm-12">
+                        <img src="Imagens/Jujutsu poster.jpg" alt="img-destaque">
+                    </div>
+                </div>
+                <div class="botao-mais">
+                    <button>+ Carregar mais</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="ultima-avaliacoes">
+                <div class="d-flex justify-content-between">
+                    <h1>Últimas avaliações</h1>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" style="background-color: #500;" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoria: Todos
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Aventura</a></li>
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                            <li><a class="dropdown-item" href="#">Comédia</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <h5><i class="fa-solid fa-user"></i> Rafael Kombat</h5>
+                        <p><b>Bleach:</b> Em uma época em que ser “mainstream” e “infinito” é um “crime”, Bleach é uma
+                            série recomendada para os fãs de um bom shounen de ação – contanto que você tenha muito
+                            tempo para isso. Passe reto pelos fillers, ou pelo menos por sua maioria. São desnecessários
+                            e você com certeza não sentirá falta de nada por lá.</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star-half-stroke"></i> | 23/03/2022
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h5><i class="fa-solid fa-user"></i> Fuzzy Àkalibrada</h5>
+                        <p><b>Jujutsu Kaisen 0:</b> Jujutsu Kaisen é mais um sucesso da consagrada Shonen Jump.
+                            Falando de forma grosseira, a série é um "Naruto Dark". A formula de sucesso segue se
+                            renovando e com o sucesso de títulos como Shingeki no Kyojin e Tokyo Ghoul, todo ar
+                            sobrenatural e violência foram incorporadas.</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star-half-stroke"></i> | 18/01/2022
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h5><i class="fa-solid fa-user"></i> Lucas Friche</h5>
+                        <p><b>BATMAN:</b> É carente de perigo, arrasta no início e tem um ato final inútil, eu acho.
+                            Apenas corte 20 minutos, eu imploro!</p>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i
+                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i> | 05/04/2022
+                    </div>
+                </div>
+                <div class="botao-mais">
+                    <button>+ Carregar mais</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="section-entrevistas">
+                <h1>Entrevistas & Making-of</h1>
+                <div class="row cards">
+                    <div class="card1 col-lg-4 col-md-6 col-sm-12">
+                        <div class="video-makingof">
+                            <iframe src="https://www.youtube.com/embed/r3Rw1h6xlmg"
+                                allow="acceleromete; autoplay; encrypted-media" frameborder="0" allowfullscreen
+                                width="300" height="200"></iframe>
+                        </div>
+                        <h4>Filme: BATMAN</h4>
+                        <p><span class="first_letter">Diretor</span>: Matt Reeves</p>
+                        <p><span class="first_letter">Roteiro</span>: Peter Craig</p>
+                    </div>
+                    <div class="card2 col-lg-4 col-md-6 col-sm-12">
+                        <div class="video-makingof">
+                            <iframe src="https://www.youtube.com/embed/G3fmBwsZnCU"
+                                allow="acceleromete; autoplay; encrypted-media" frameborder="0" allowfullscreen
+                                width="300" height="200"></iframe>
+                        </div>
+                        <h4>Série: Peaky Blinders</h4>
+                        <p><span class="first_letter">Diretor</span>: Otto Bathurst</p>
+                        <p><span class="first_letter">Roteiro</span>: Toby Finlay</p>
+                    </div>
+                    <div class="card3 col-lg-4 col-sm-12">
+                        <div class="video-makingof">
+                            <iframe src="https://www.youtube.com/embed/eS8nHSyz_RI"
+                                allow="acceleromete; autoplay; encrypted-media" frameborder="0" allowfullscreen
+                                width="300" height="200"></iframe>
+                        </div>
+                        <h4>Filme: Gekijouban Jujutsu Kaisen 0</h4>
+                        <p><span class="first_letter">Diretor</span>: Sunghoo Park</p>
+                        <p><span class="first_letter">Roteiro</span>: Gege Akutami</p>
+                    </div>
+                </div>
+
+                <!--Início do carrossel-->
+
+                <!--Carousel-->
+                <div class="carousel-videos">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <!--Vídeo 1-->
+                            <div class="carousel-item active">
+                                <div class="row lancamentos-carousel">
+                                    <div class="col-sm-12">
+                                        <iframe src="https://www.youtube.com/embed/r3Rw1h6xlmg"
+                                            allow="acceleromete; autoplay; encrypted-media" frameborder="0"
+                                            allowfullscreen width="300" height="200"></iframe>
+                                    </div>
+                                    <div class="texto-parte-destaque col-sm-12">
+                                        <h4>Filme: BATMAN</h4>
+                                        <p><span class="first_letter">Diretor</span>: Matt Reeves</p>
+                                        <p><span class="first_letter">Roteiro</span>: Peter Craig</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Vídeo 2-->
+                            <div class="carousel-item">
+                                <div class="row lancamentos-carousel">
+                                    <div class="col-sm-12">
+                                        <iframe src="https://www.youtube.com/embed/G3fmBwsZnCU"
+                                            allow="acceleromete; autoplay; encrypted-media" frameborder="0"
+                                            allowfullscreen width="300" height="200"></iframe>
+                                    </div>
+                                    <div class="texto-parte-destaque col-sm-12">
+                                        <h4>Série: Peaky Blinders</h4>
+                                        <p><span class="first_letter">Diretor</span>: Otto Bathurst</p>
+                                        <p><span class="first_letter">Roteiro</span>: Toby Finlay</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Vídeo 3-->
+                            <div class="carousel-item">
+                                <div class="row lancamentos-carousel">
+                                    <div class="col-sm-12">
+                                        <iframe src="https://www.youtube.com/embed/eS8nHSyz_RI"
+                                            allow="acceleromete; autoplay; encrypted-media" frameborder="0"
+                                            allowfullscreen width="300" height="200"></iframe>
+                                    </div>
+                                    <div class="texto-parte-destaque col-sm-12">
+                                        <h4>Filme: Jujutsu Kaisen 0</h4>
+                                        <p><span class="first_letter">Diretor</span>: Sunghoo Park</p>
+                                        <p><span class="first_letter">Roteiro</span>: Gege Akutami</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Fim do carrossel-->
+
+                <div class="botao-mais">
+                    <button>+ Carregar mais</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="section-novidades">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <h2>Novidades</h2>
+                        <div class="novidades-geral">
+                            <div class="novidades">
+                                <div>
+                                    <h5>Thor: Love and Thunder</h5>
+                                    <img src="https://portalpopline.com.br/wp-content/uploads/2022/04/thor-sinopse.jpg"
+                                        alt="novidades" style="max-width: 200px;">
+                                </div>
+                                <div>
+                                    <p>O filme encontra Thor (Chris Hemsworth) em uma jornada diferente de tudo que ele
+                                        já enfrentou – uma busca pela paz interior, mas sua aposentadoria é interrompida
+                                        por um assassino galáctico conhecido como Gorr, o Carniceiro dos Deuses
+                                        (Christian Bale), que busca a extinção dos deuses. Para combater a ameaça, Thor
+                                        pede a ajuda do Rei Valquíria (Tessa Thompson), Korg (Taika Waititi) e da
+                                        ex-namorada Jane Foster (Natalie Portman), que – para surpresa de Thor –
+                                        inexplicavelmente empunha seu martelo mágico, Mjolnir, revelando-se a Poderosa
+                                        Thor. Juntos, eles embarcam em uma angustiante aventura cósmica para descobrir o
+                                        mistério da vingança do Carniceiro dos Deuses e detê-lo antes que seja tarde
+                                        demais.</p>
+                                    <span class="Conquista-novidades"> Lançamento </span><span
+                                        class="Conquista-novidades"> Saga </span><span class="Conquista-novidades">
+                                        Marvel </span>
+                                </div>
+                            </div>
+                            <div class="novidades">
+                                <div>
+                                    <h5>Spy x Family</h5>
+                                    <img src="https://i0.wp.com/www.otakupt.com/wp-content/uploads/2021/11/Spy-x-Family-visual-2-1.jpg?resize=1280%2C1829&ssl=1"
+                                        alt="novidades" style="max-width: 200px;">
+                                </div>
+                                <div>
+                                    <p>O habilidoso espião “Twilight” é instruído a construir uma “família” para se
+                                        infiltrar em uma tradicional instituição de ensino. Mas a “filha” que ele
+                                        encontra é uma paranormal que lê mentes! E a “esposa” é uma assassina?!</p>
+                                    <p>Ocultando um do outro suas identidades, essa família temporária terá de enfrentar
+                                        os perigos dos exames de admissão e do mundo em uma espirituosa comédia
+                                        doméstica!!</p>
+                                    <span class="Conquista-novidades"> Investigação </span><span
+                                        class="Conquista-novidades"> Comédia </span><span class="Conquista-novidades">
+                                        Animação </span>
+                                </div>
+                            </div>
+                            <div class="novidades">
+                                <div>
+                                    <h5>CODA</h5>
+                                    <img src="https://fofoqueando.com/wp-content/uploads/2022/03/Vencedor-do-Oscar-CODA-e-relancado-nos-cinemas-com-legendas.jpg"
+                                        alt="novidades" style="max-width: 250px;">
+                                </div>
+                                <div>
+                                    <p>O Oscar 2022 consagrou No Ritmo do Coração (CODA), como seu grande vencedor. A
+                                        Academia de Artes e Ciências Cinematográficas de Hollywood deu ao longa de Sian
+                                        Heder o prêmio de Melhor Filme, bem como os de Roteiro Adaptado e de Melhor Ator
+                                        Coadjuvante, para Troy Kotsur -- que se tornou o primeiro homem surdo a vencer
+                                        um Oscar em uma categoria de atuação.</p>
+                                    <span class="Conquista-novidades"> Hollywood </span><span
+                                        class="Conquista-novidades"> Oscar </span><span class="Conquista-novidades">
+                                        Filme </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sobre col-lg-6 col-md-12 col-sm-12">
+                        <h3>Sobre nós</h3>
+                        <p>Nós da Vaaisperflix somos um grupo pequeno - de apenas uma pessoa - e estamos prontos para te
+                            mostrar séries, filmes e animações de qualidade. Queremos que você saiba que tipo de
+                            experiências você terá antes que veja sua mídia, seja ela boa ou ruim. Para isso temos
+                            diversas avaliações de usuários diferentes. Nós nos consideramos confiáveis para recomendar
+                            para você novos filmes e séries através da aba de novidades.</p>
+                        <p>Além disso, temos vários conteúdos de por trás das cenas para que você fique por dentro dos
+                            bastidores!</p>
+                        <div class="editorial">
+                            <h3>Editorial</h3>
+                            Redação: Vítor<br>
+                            Pesquisa: Figueiredo<br>
+                            Gerente geral: Pereira<br>
+
+                            <h4>Redes sociais:</h4>
+                            <p><img src="Imagens/Twitter.png" alt="Twitter" style="max-width: 50px;"><a
+                                    href="https://twitter.com/JoaoPennajoao" target="_blank"> Twitter</a></p>
+                            <p><img src="Imagens/Facebook.png" alt="Facebook" style="max-width: 50px;"><a
+                                    href="https://www.facebook.com/joaovictor.marconpena" target="_blank"> Facebook</a>
+                            </p>
+                            <p><img src="Imagens/Instagram.png" alt="Instagram" style="max-width: 50px;"><a
+                                    href="https://www.instagram.com/joaov.mp/" target="_blank"> Instagram</a></p>
+                            <p><img src="Imagens/Twitch.png" alt="Twitch" style="max-width: 50px;"><a
+                                    href="https://www.twitch.tv/pennajoao?lang=pt-br" target="_blank"> Twitch</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-10"><span>Vaaisperflix - Copyright 2022 - Todos os Direitos Reservados</span></div>
+                <div class="col-2">
+                    <img class="logo" src="Imagens/LogoSiteFilme.jpg" alt="logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
